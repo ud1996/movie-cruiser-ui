@@ -1,0 +1,51 @@
+.card-img-top{
+    max-height: 600px;
+}
+.jumbotron{
+    background-image: url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+}
+.display-4{
+    color: white;
+}
+
+.card-header{
+    font-size: 25px;
+    size: 30px;
+    font-weight: 20px;
+}
+.rupee-color{
+    color: darkred;
+}
+.btn{
+    color: white;
+    background-color: darkslateblue;
+    border: none;
+}
+.truck-color{
+    color: darkblue;
+}
+.card{
+    margin-top: 20px;
+}
+.validation-error{
+    color: red;
+}
+.justify-content-end{
+justify-content: right;
+}
+.navbar{
+    background-color:darkslateblue;
+}
+.delete_forever-icons{
+    color: darkgrey;
+}
+.total{
+font-size: 20px;
+font: bold;
+font-weight: 100px;
+}
+.amt{
+    color: darkred;
+}.material-icons{
+    vertical-align: middle;
+}

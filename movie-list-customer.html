@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a href="#" class="navbar-brand"><i class="material-icons">local_movies</i>Movie Cruiser</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#content">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="content">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a href="movie-list-customer.html" class="nav-link">Movies</a>
+                </li>
+                <li class="nav-item active">
+                        <a href="favourites.html" class="nav-link">Favourites</a>
+                    </li>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link"><i class="material-icons">person</i>utkarsh</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="login.html" class="nav-link">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid ">
+       
+            <div class="row">
+                <div class="col-12 jumbotron search-container mb-2">
+                    <div class="display-4">Find Movies</div>
+                    <form>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="material-icons">
+                                       local_movies
+                                        </i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Search Food"id="Search"name="Search">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        
+    </div>
+    <div class="container-fluid mt-5 mb-5">
+            <div class="row justify-content-start">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card ">
+                        <img class="card-img-top"
+                            src="https://images-na.ssl-images-amazon.com/images/I/91ErqttBmKL._RI_.jpg">
+                        <div class="card-body">
+                            <div class="row justify-content-center mt-3">
+                                <div class="col-10">
+                                    <h4 class="card-title text-muted">Avatar</h4>
+                                </div>
+                                <div class="col-2 ">
+                                    <span class="rupee-color d-flex flex-row-reverse">$87654699</span>
+                                </div>
+                            </div>
+                            <div class="row justify-content-start">
+                                <div class="col-7">
+                                    <small class="text-secondary">Animation</small>
+                                </div>
+                                <div class="col-5 d-flex justify-content-end">
+                                    
+                                    <div class="badge badge-info ">Teaser</div>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row-reverse mt-3"><a href="movie-list-customer-add-to-favourites.html">
+                                <button class="btn btn-danger" type="button" id="cart_button"name="cart_button"><i class="material-icons">
+                                    favorite_border
+                                    </i> Favourites</button></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card ">
+                        <img class="card-img-top"
+                            src="http://t2.gstatic.com/images?q=tbn:ANd9GcQA_-tL18_rj9zEcjN6n41NEaJm-kRNF9UeOtvksZ4z_OW6jRA9">
+                        <div class="card-body">
+                            <div class="row justify-content-center mt-3">
+                                <div class="col-10">
+                                    <h4 class="card-title text-muted">Avegers</h4>
+                                </div>
+                                <div class="col-2 ">
+                                    <span class="rupee-color d-flex flex-row-reverse">$877435129</span>
+                                </div>
+                            </div>
+                            <div class="row justify-content-start">
+                                <div class="col-7">
+                                    <small class="text-secondary">Action</small>
+                                </div>
+                            </div>
+    
+                            <div class="d-flex flex-row-reverse mt-3"><a href="movie-list-customer-add-to-favourites.html">
+                                    <button class="btn btn-danger" type="button" id="cart_button"name="cart_button"><i class="material-icons">
+                                        favorite_border
+                                        </i>Favourites</button></a>
+                                </div>
+                        </div>
+    
+                    </div>
+    
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card ">
+                        <img class="card-img-top"
+                            src="https://i.pinimg.com/originals/43/da/e0/43dae080442402c7fab4c93603fc74bf.jpg">
+    
+                        <div class="card-body">
+                            <div class="row justify-content-center mt-3">
+                                <div class="col-10">
+                                    <h4 class="card-title text-muted">Titanic</h4>
+                                </div>
+                                <div class="col-2 ">
+                                    <span class="rupee-color d-flex flex-row-reverse">$986765149</span>
+                                </div>
+                            </div>
+                            <div class="row justify-content-start">
+                                <div class="col-7 ">
+                                    <small class="text-secondary ">Romantic</small>
+                                </div>
+    
+                            </div>
+                            <div class="d-flex flex-row-reverse mt-3"><a href="movie-list-customer-add-to-favourites.html">
+                                    <button class="btn btn-danger" type="button" id="cart_button"name="cart_button"><i class="material-icons">
+                                        favorite_border
+                                        </i> Favourites</button></a>
+                                </div>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card ">
+                        <img class="card-img-top"
+                            src="https://cdn.shopify.com/s/files/1/0747/3829/products/mHP0005_1024x1024.jpeg?v=1485014430">
+    
+                        <div class="card-body">
+                            <div class="row justify-content-center mt-3">
+                                <div class="col-10">
+                                    <h4 class="card-title text-muted">Star Wars</h4>
+                                </div>
+                                <div class="col-2 ">
+                                    <span class="rupee-color d-flex flex-row-reverse">$85787657</span>
+                                </div>
+                            </div>
+                            <div class="row justify-content-start">
+                                <div class="col-7">
+                                    <small class="text-secondary ">Action</small>
+                                </div>
+                                <div class="col-5 d-flex justify-content-end">
+                                    
+                                    <div class="badge badge-info ">Teaser</div>
+    
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row-reverse mt-3"><a href="movie-list-customer-add-to-favourites.html">
+                                    <button class="btn btn-danger" type="button" id="cart_button"name="cart_button"><i class="material-icons">
+                                        favorite_border
+                                        </i> Favourites</button></a>
+                                </div>
+    
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-5">
+                    <div class="card ">
+                        <img class="card-img-top"
+                            src="http://cdn.shopify.com/s/files/1/0558/2081/files/Taylor_InfinityWar_REGULAR_Lg_1024x1024.jpg?v=1532236034">
+    
+                        <div class="card-body">
+                            <div class="row justify-content-center mt-3">
+                                <div class="col-10">
+                                    <h4 class="card-title text-muted">Avegers Infinty War</h4>
+                                </div>
+                                <div class="col-2">
+                                    <span class="rupee-color d-flex flex-row-reverse">$876464562</span>
+                                </div>
+                            </div>
+                            <div class="row justify-content-start">
+                                <div class="col-7">
+                                    <small class="text-secondary">Action</small>
+                                </div>
+                                <div class="col-5 d-flex justify-content-end">
+                                   
+                                    <div class="badge badge-info ">Teaser</div>
+                                </div>
+    
+                            </div>
+                            <div class="d-flex flex-row-reverse mt-3"><a href="movie-list-customer-add-to-favourites.html">
+                                    <button class="btn btn-danger" type="button" id="cart_button"name="cart_button"><i class="material-icons">
+                                        favorite_border
+                                        </i> Favourites</button></a>
+                                </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar fixed-bottom navbar-dark mt-3" >
+            <a class="navbar-brand" href="#" id="footer" name="footer">Copyright 2019</a>
+        </nav>
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+</body>
+
+</html>
